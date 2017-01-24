@@ -1,0 +1,56 @@
+.first-page {
+    background-image: url('../img/tech.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.img-circle {
+    border-radius: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display: block;
+    float: left;
+}
+
+li a {
+    display: inline;
+    ;
+    color: white;
+    text-align: center;
+    padding: 60px 60px;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: inherit;
+    ;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+h1 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    font-size: 80px;
+}
+
+#container {
+    background-color: grey;
+}
